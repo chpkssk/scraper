@@ -4,3 +4,4 @@ Its uses Nokogiri library of ruby to parse the html page that is retreived using
 
 The data files consists of details, title, image url and mobile url's of specific phone.
 
+Due to read timeout exception certain mobile data from amazon is missing.
