@@ -77,7 +77,6 @@ CSV.open("similar_mobile.csv","a") do |csv|
 		if amazon_hash.key? company_name
 			value = get_score(title, amazon_hash[company_name])
 			if value != -1
-				#puts value, company_name
  			  csv << ["walmart",title]
  			  csv << ["amazon",amazon_hash[company_name][value].join(" ")]
 			end
